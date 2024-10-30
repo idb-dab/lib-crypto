@@ -1,0 +1,35 @@
+{
+  "name": "@idb-dab/lib-crypto",
+  "version": "0.0.1",
+  "description": "Crypto Library",
+  "main": "dist/index.js",
+  "readmeFilename": "README.md",
+  "files": [
+    "dist/**/*",
+    "*.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idb-dab/lib-crypto"
+  },
+  "author": "Pankaj Chaurasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idb-dab/lib-crypto/issues"
+  },
+  "homepage": "https://github.com/idb-dab/lib-crypto#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "typescript": "^5.6.3"
+  },
+  "overrides": {},
+  "publishConfig": {
+    "@idb-dab:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4"
+  }
+}

@@ -1,0 +1,21 @@
+export type Headers = {
+    "Content-Type": string;
+    "request-id": string;
+    "channel-id": string;
+    "correlation-id": string;
+    "session-id": string;
+    "app-version": string;
+    "screen-id": string;
+    "login-id": string;
+    "host-ip": string;
+    location: string;
+    timezone: string;
+    "device-type"?: string;
+    "device-os"?: string;
+    "device-family"?: string;
+    "device-format"?: string;
+    "device-name"?: string;
+    "device-imei"?: string;
+    "device-id"?: string;
+    "device-version"?: string;
+};
